@@ -1,14 +1,14 @@
 import React from "react";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import Table from "./components/TableWithLocalizationProvider";
+import OrdersTable from "./components/orders-table/OrdersTable";
 
-import "@fortawesome/fontawesome-svg-core/styles.css";
+import "./styles/index.css";
 
 function App() {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <Table />
+      <OrdersTable />
     </LocalizationProvider>
   );
 }

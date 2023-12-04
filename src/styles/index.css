@@ -1,0 +1,5 @@
+button[aria-label="Save"],
+button[aria-label="Cancel"] {
+  padding: 0px;
+  margin: -2px;
+}
